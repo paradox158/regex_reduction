@@ -1,11 +1,12 @@
 package com.regex.base;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Stack;
+
 public class main {
     public static void main(String[] args) {
-        String test = "01234567";
-        System.out.println(test.substring(0, 2));
-        System.out.println(test.substring(4, 5));
-//        System.out.println(test.substring(4, 10));
-        System.out.println(test.substring(4, 5));
+       Tree tree = new Tree("(a.(a|c))*.c");
     }
 }

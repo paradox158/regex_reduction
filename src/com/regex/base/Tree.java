@@ -9,6 +9,7 @@ public class Tree  {
 
     public Tree(String regex){
         root = new Node(regex);
-
-    };
+//        setPosition
+    }
+//    public CreateLevel()
 }
